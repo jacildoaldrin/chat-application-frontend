@@ -1,0 +1,87 @@
+.messageBox {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  min-width: 250px;
+}
+
+.messageBox-sender {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding: 10px 10px 0px 10px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.messageText {
+  min-width: 20px;
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.2em;
+  word-wrap: break-word;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+  padding-bottom: 1%;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.systemMessage{
+  padding: 0 4.5%;
+  display: flex;
+  justify-content: flex-start;
+  opacity: 0.5;
+}
+
+.chatMessage{
+  opacity: 0.9;
+  padding: 0 5.5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.userMessage{
+  opacity: 0.9;
+  padding: 0 5.5%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.username-received {
+  display: flex;
+  align-items: center;
+}
+
+.colorDark {
+  color: #e4e6eb;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+}
+
+.backgroundLight {
+  background: #3e4042;
+}
+
+hr.style-two {
+  background-color: #f3f3f3;
+  border: 0;
+  height: 1px;
+}

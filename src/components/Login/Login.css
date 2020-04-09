@@ -1,0 +1,26 @@
+#loginCover {
+  background-color: black;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#cover-caption {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.formContainer {
+    background-color: white;
+    color: #000;
+    padding: 10%;
+    border-radius: 2em;
+}
+
+.btn {
+  width: 100%;
+}

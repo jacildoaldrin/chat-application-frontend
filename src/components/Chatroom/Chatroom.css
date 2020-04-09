@@ -1,0 +1,81 @@
+.outerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #18191a;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #242526;
+  border-radius: 10px;
+  height: 80%;
+  width: 40%;
+}
+
+.roomList {
+  display: flex;
+  flex-direction: column;
+  color: #e4e6eb;
+}
+
+.roomsContainer {
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #242526;
+  border-radius: 10px;
+  color: #e4e6eb;
+  width: 20%;
+  height: 80%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 100%;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}
+
+/* INFO BAR */
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2979ff;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  border-radius: 10px 10px 0 0;
+  height: 60px;
+  width: 100%;
+}
+
+.leftChatContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  color: white;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
