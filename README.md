@@ -5,3 +5,7 @@ Members:
 Admin Authentication:
 - username: admin
 - password: password
+
+Heroku Links:
+- Frontend: [https://chat-application-frontend.herokuapp.com/]
+- Backend: [https://chat-application-backend.herokuapp.com]
