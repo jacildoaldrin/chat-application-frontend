@@ -1,9 +1,8 @@
-import React from 'react';
-import { Tabs, Tab } from 'react-bootstrap';
-import  Events  from './events';
-import Messages from './messages';
+import React from "react";
+import { Tabs, Tab } from "react-bootstrap";
+import Events from "./events";
+import Messages from "./messages";
 import Rooms from './Rooms';
-
 import "./subcomponents.css";
 
 class AdminTabs extends React.Component {
@@ -15,18 +14,22 @@ class AdminTabs extends React.Component {
   render() {
     return (
       <>
-      <Tabs className="myTabs" defaultActiveKey="rooms" id="uncontrolled-tab-example">
-        <Tab className="myTab" eventKey="eventHistory" title="Event History">
-          <Events/>
-        </Tab>
-        <Tab eventKey="messageHistory" title="Message History">
-          <Messages/>
-        </Tab>
-        <Tab eventKey="rooms" title="Rooms">
-          <Rooms/>
-        </Tab>
-      </Tabs>
-      </> 
+        <Tabs
+          className="myTabs"
+          defaultActiveKey="rooms"
+          id="uncontrolled-tab-example"
+        >
+          <Tab className="myTab" eventKey="eventHistory" title="Event History">
+            <Events />
+          </Tab>
+          <Tab eventKey="messageHistory" title="Message History">
+            <Messages />
+          </Tab>
+          <Tab eventKey="rooms" title="Rooms">
+            <Rooms />
+          </Tab>
+        </Tabs>
+      </>
     );
   }
 }
