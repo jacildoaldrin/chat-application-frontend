@@ -2,7 +2,6 @@ import React from "react";
 import { Tabs, Tab } from "react-bootstrap";
 import Events from "./events";
 import Messages from "./messages";
-// import Rooms from './Rooms';
 import "./subcomponents.css";
 import Room from "./Room";
 
